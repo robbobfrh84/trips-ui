@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en">
+<title> Serve & Fetch JSON </title>
+<head>
+  <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style media="screen">
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    .box {
+      display: flex;
+      flex-flow: column;
+      height: 100%;
+      margin-right: 20px;
+    }
+
+    .box .fill-content {
+      flex: 1 1 auto;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1> Serve & Fetch JSON </h1>
+    <textarea id="jsonDisplay" class="row fill-content"></textarea>
+  </div>
+
+</body>
+<script>
+
+window.onload = function() {
+  fetch("https://storage.googleapis.com/storage/v1/b/bobs_lab_bucket/o/json_host%2Ftrips.json?alt=media")
+    .then(response => response.json())
+    .then(data => buildJson(data))
+    .catch(error => console.log(error))
+}
+
+function buildJson(data) {
+  const jsonDisplay = document.getElementById("jsonDisplay")
+  jsonDisplay.innerHTML = JSON.stringify(data, null, 2)
+}
+
+</script>
+</html>
