@@ -1,0 +1,37 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-faint-red);
+  width: 100%;
+  height: var(--navbar-top-height);
+}
+
+.app-title {
+  background-color: var(--bg-faint-red);
+  margin-left: var(--space-md);
+  font-size: var(--font-size-md);
+  font-weight: bold;
+}
+
+.nav-top-right {
+  margin-left: auto;
+  margin-right: var(--space-md);
+  border: none;
+}
+
+.button-1 {
+  border: none;
+}
+
+.nav-top-right_button {
+  background-color: var(--bg-faint-red);
+  height: var(--button-1-height);
+  width: var(--button-1-height);
+  border-radius: 100%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.nav-top-right_button:hover {
+  background-color: var(--bg-faint-white);
+}

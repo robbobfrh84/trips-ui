@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  font-size: 100%;
+  font-family: var(--font-family);
+  margin: 0;
+}
+
+#tripSet_container {
+  background-color: var(--bg-faint-green);
+  margin: var(--space-md);
+  overflow: auto;
+}
+
+.listing {
+  display: flex;
+  background-color: var(--bg-faint-green);
+  margin: var(--space-md);
+  padding: var(--space-md);
+}
+
+.app-h3 {
+  background-color: var(--bg-faint-black);
+  margin: 0;
+  padding: var(--space-md);
+  margin: var(--space-md-half);
+  /* align-self: flex-start; */
+}
+
+.listing-img-container {
+  height: auto;
+  margin-left: auto;
+}
