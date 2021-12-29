@@ -1,29 +1,27 @@
 # UI Engineering Code Challenge
 ... [Project intro writeup here] WIP...
 
-### Project live links 🔥
+## Project's live links 🔥
 
-Final Application [TO DO - add link]()
+✨ [Completed application link](https://robbobfrh84.github.io/index.html) ✨
 
-Workflow step links...🐾🐾🐾
-- [Step 1 🐾: "Serve and fetch JSON"](https://robbobfrh84.github.io/trips-ui/steps/1_Serve-and-fetch-JSON/index.html)
-- [Step 2 🐾: "Display the data & add base vars"](https://robbobfrh84.github.io/trips-ui/steps/2_Display-the-data/index.html)
-- [Step 3 🐾: "Resize images"](https://robbobfrh84.github.io/trips-ui/steps/3_Resize-image/index.html)
-- [Step 3 🐾: "Wireframe grid and breakpoints](https://robbobfrh84.github.io/trips-ui/steps/4_Wireframe-grid-and-breakpoints/index.html)
+#### Workflow steps status links...🐾🐾🐾
+  - [Step 1 🐾: Serve and fetch JSON](https://robbobfrh84.github.io/trips-ui/steps/1_Serve-and-fetch-JSON/index.html)  
+  - [Step 2 🐾: Display the data & add base vars](https://robbobfrh84.github.io/trips-ui/steps/2_Display-the-data/index.html)  
+  - [Step 3 🐾: Resize images](https://robbobfrh84.github.io/trips-ui/steps/3_Resize-image/index.html)  
+  - [Step 4 🐾: Responsive grid](https://robbobfrh84.github.io/trips-ui/steps/4_Responsive-grid/index.html)  
+  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
+  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
+  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
+  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
+  - [Final Step: "..."](https://robbobfrh84.github.io/index.html)
 
-- [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
-- [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
-- [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
-- [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
-
-- [Final Step: "..."]()
-
-### Project Development Overview
+## Project Development Overview
 - ✅ Review Assignment, plan rough outline of steps-t-completion
 - ✅ Setup directory, Github repo, and hosting `trips.json` for mock API request
-- 🟡 Display the data, extend directory and set JS & CSS base variables
-- 🟡 Resize Images
-- 📲 Wireframe grid and breakpoints
+- ✅ Display the data, extend directory and set JS & CSS base variables
+- ✅ Resize Images
+- 🟡 Wireframe responsive grid
 - Add filter & sort order
 - Ad hoc design implementation for **Fonts, background, and borders**
 - Ad hoc design implementation for **Layout, transitions, and buttons**
@@ -40,7 +38,7 @@ The data this application is build around, uses a provided [trips.json](https://
 
 I used a Google Cloud Storage Bucket to host and serve the file, and on the client-side, I used used the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to retrieve the data and convert it into a usable javaScript object.
 
-### Setup directory, Github repo, and hosting `trips.json` for mock API request
+### Display the data, extend directory and set JS & CSS base variables
 When setting up the foundation for this app. I wanted to make sure I had a reference to quickly change any base variables that may need to be changed at a later point. For CSS I created `css/vars.css` to be the "source of truth" for site-wide colors, spaces, sizes, fonts and other vars to maintain.
 
 For javascript I created the file `js/app.js` to be the root trigger for any client-side events, handling initial **onload** events in addition to other ui events and routing if necessary.  
@@ -60,14 +58,4 @@ I'd read on the directions that React + Typescript is used on internal projects.
 
 ----
 # Resources used
-- Google Chrome: https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn
-
-----
-- Website Accessibility Checklist: https://fuzzymath.com/blog/website-accessibility-checklist/
-- Document and website structure: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
-- HTML5 Semantic Tags: What They Are and How to Use Them: https://www.semrush.com/blog/semantic-html5-guide/
-
-----
-- CSS Custom Properties for Cascading Variables: https://www.w3.org/TR/css-variables-1/
-- Vertical Centering Solved by Flexbox: https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/
-- Aligning Items in a Flex Container: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#using_auto_margins_for_main_axis_alignment
+- A list of resources can be found in the [Resources.md](https://robbobfrh84.github.io/trips-ui/Resources.md) file.
