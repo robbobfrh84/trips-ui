@@ -8,7 +8,7 @@ Final Application [TO DO - add link]()
 Workflow step links...🐾🐾🐾
 - [Step 1 🐾: "Serve and fetch JSON"](https://robbobfrh84.github.io/trips-ui/steps/1_Serve-and-fetch-JSON/index.html)
 - [Step 2 🐾: "Display the data & add base vars"](https://robbobfrh84.github.io/trips-ui/steps/2_Display-the-data/index.html)
-- [Step 3 🐾: "Resize images"](https://robbobfrh84.github.io/trips-ui/steps//index.html)
+- [Step 3 🐾: "Resize images"](https://robbobfrh84.github.io/trips-ui/steps/3_Resize-image/index.html)
 - [Step 3 🐾: "Wireframe grid and breakpoints](https://robbobfrh84.github.io/trips-ui/steps/4_Wireframe-grid-and-breakpoints/index.html)
 
 - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
