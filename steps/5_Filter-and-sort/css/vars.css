@@ -1,0 +1,44 @@
+:root {
+/* 🔴🟢🔵 colors 🔴🟢🔵 */
+  --main-color: #06c;
+  --accent-color: #006;
+
+  --dark-color: #282829;
+  --darker-color: #172328;
+  --light-color: #FFFFFF;
+
+/* 🅰🔠🅱 Fonts 🅰🔠🅱 */
+  --font-family: Tahoma, sans-serif;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1rem;
+  --font-weight-bold: bold;
+
+/* _-_-_ Spaces (margin, padding etc...) _-_-_ */
+  --space-md: 0.5rem;
+  --space-md-half: calc(var(--space-md)/2);
+  --space-md-2x: calc(var(--space-md)*2);
+
+/* 📦 ⬅️➡️  Sizes (widths, hights etc...) ⬆️⬇️ 📦 */
+  --content-max-width-LG: 1200px;
+  --content-max-width-MD: 800px;
+  --content-max-width-SM: 400px;
+  --col-width: 400px;
+  /* --img-width: 310px; maybe don't need this */
+  --image-height: 200px; /* manually set by column width for best ratio for minimal pinch / pull of pics */
+  --navbar-top-height: 2.5rem;
+  --button-1-height: 2rem;
+
+
+
+
+/* ----- */
+
+/* 🧪🥽🔬 Testing Zone (wire-framing, experimenting, etc...) 🧪🥽🔬 */
+  --bg-faint-white: rgba(255,255,255,0.2);
+  --bg-faint-black: rgba(0,0,0,0.2);
+
+  --bg-faint-red: rgba(100,0,0,0.25);
+  --bg-faint-green: rgba(0,200,0,0.25);
+  --bg-faint-blue: rgba(0,0,100,0.25);
+
+}

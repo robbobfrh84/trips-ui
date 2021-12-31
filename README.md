@@ -10,7 +10,7 @@
   - [Step 2 🐾: Display the data & add base vars](https://robbobfrh84.github.io/trips-ui/steps/2_Display-the-data/index.html)  
   - [Step 3 🐾: Resize images](https://robbobfrh84.github.io/trips-ui/steps/3_Resize-images/index.html)  
   - [Step 4 🐾: Responsive grid](https://robbobfrh84.github.io/trips-ui/steps/4_Responsive-grid/index.html)  
-  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
+  - [Step 5 🐾: Filter and sort](https://robbobfrh84.github.io/trips-ui/steps/5_Filter-and-sort/index.html)
   - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
   - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
   - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
@@ -21,8 +21,8 @@
 - ✅ Setup directory, Github repo, and hosting `trips.json` for mock API request
 - ✅ Display the data, extend directory and set JS & CSS base variables
 - ✅ Resize Images
-- 🟡 Wireframe responsive grid
-- Filter and Sort
+- ✅ Wireframe responsive grid
+- 🟡 Filter and Sort
 - Ad hoc design implementation for **Fonts, background, and borders**
 - Ad hoc design implementation for **Layout, transitions, and buttons**
 - Accessibility & Semantic HTML refactor and review

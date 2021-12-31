@@ -1,0 +1,7 @@
+.app-navigation {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-faint-blue);
+  width: 100%;
+  height: var(--navbar-top-height);
+}
