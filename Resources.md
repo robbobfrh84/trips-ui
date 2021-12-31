@@ -12,3 +12,4 @@
 - Aligning Items in a Flex Container: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#using_auto_margins_for_main_axis_alignment
 - Human readable local date: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString#using_options
 - Using await with fetch: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
+- flexbox responsive grids: https://css-tricks.com/dont-overthink-flexbox-grids/

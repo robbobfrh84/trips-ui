@@ -22,7 +22,7 @@
 - ✅ Display the data, extend directory and set JS & CSS base variables
 - ✅ Resize Images
 - 🟡 Wireframe responsive grid
-- Add filter & sort order
+- Filter and Sort
 - Ad hoc design implementation for **Fonts, background, and borders**
 - Ad hoc design implementation for **Layout, transitions, and buttons**
 - Accessibility & Semantic HTML refactor and review
@@ -44,11 +44,15 @@ When setting up the foundation for this app. I wanted to make sure I had a refer
 For javascript I created the file `js/app.js` to be the root trigger for any client-side events, handling initial **onload** events in addition to other ui events and routing if necessary.  
 
 ### Resize Images
-With a helpful from the Code Challenge directions, I was able to tinker with the image url and discover that adding `width`, `height` and specifying my desiered size of image, allowed me to scale my images smaller for the frontend to load quickly!
+With a helpful hint from the Code Challenge directions, I was able to tinker with the image url and discover that adding `width`, `height` and specifying my desired size of image, allowed me to scale my images smaller for the frontend to load quickly!
 - Here is the completed query parameter that was appended: `?height=200&width=356`.
 
 Note: While I was messing around with the scaling endpoint. I did discover that a few mages didn't fit the 200/356 ratio. However they were only off by a few pixels, so I excepting "pinching" and "pulling" for this use-case.
 - But, something to consider down the road.
+
+### Responsive grid
+I struggled a bit with this step. Getting the listings into columns wasn't too tricky. However, because the items needed to be sorted by date, reordering the columns with CSS would put them out of order. There may be a way, but I elected to use JS event to re-order the columns on **LG - MD - SM** break points.
+
 
 ----
 # Additional Notes & Thoughts...
