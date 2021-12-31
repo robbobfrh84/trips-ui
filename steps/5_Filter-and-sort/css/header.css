@@ -1,9 +1,9 @@
 .app-header {
+  background-color: var(--bg-faint-red);
+  height: var(--navbar-top-height);
   display: flex;
   align-items: center;
-  background-color: var(--bg-faint-red);
   width: 100%;
-  height: var(--navbar-top-height);
 }
 
 .app-title {
@@ -14,12 +14,8 @@
 }
 
 .nav-top-right {
-  margin-left: auto;
   margin-right: var(--space-md);
-  border: none;
-}
-
-.button-1 {
+  margin-left: auto;
   border: none;
 }
 
@@ -27,6 +23,7 @@
   background-color: var(--bg-faint-red);
   height: var(--button-1-height);
   width: var(--button-1-height);
+  border: none;
   border-radius: 100%;
   padding: 0px;
   cursor: pointer;

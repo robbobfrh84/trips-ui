@@ -1,7 +1,40 @@
 .app-navigation {
+  background-color: var(--bg-faint-blue);
+  height: var(--navbar-top-height);
+
   display: flex;
   align-items: center;
-  background-color: var(--bg-faint-blue);
   width: 100%;
-  height: var(--navbar-top-height);
+}
+
+.sort-nav {
+  display: flex;
+}
+
+.reorder-icon {
+  width: 30px;
+}
+
+.filter-btn {
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  margin: var(--space-md-quarter);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color .3s, color .3s;
+}
+
+.filter-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.filter-btn.active:hover, .filter-btn.inactive:hover {
+  color: var(--light-color);
+  background-color: var(--active-color-heighlight);
+  transition: background-color .3s, color .3s;
 }

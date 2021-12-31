@@ -23,12 +23,14 @@
 - ✅ Resize Images
 - ✅ Wireframe responsive grid
 - 🟡 Filter and Sort
+- Accessibility & Semantic HTML refactor and review
 - Ad hoc design implementation for **Fonts, background, and borders**
 - Ad hoc design implementation for **Layout, transitions, and buttons**
-- Accessibility & Semantic HTML refactor and review
 - Performant refactor and review
 - Final touches & repo documentation review.
-- Bonus enhancements
+- ⭐️ Bonus enhancements
+  - Animated popup for listings...
+  - Mock delay & loader. 
 
 ----
 # Project Development Notes

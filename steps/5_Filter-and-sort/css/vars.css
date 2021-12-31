@@ -1,11 +1,15 @@
 :root {
 /* 🔴🟢🔵 colors 🔴🟢🔵 */
-  --main-color: #06c;
-  --accent-color: #006;
+  /* --main-color: #06c; */
+  /* --accent-color: #006; */
+
+  --active-color: #d9e6d7;
+  --active-color-heighlight: #228b22;
 
   --dark-color: #282829;
   --darker-color: #172328;
-  --light-color: #FFFFFF;
+  --light-color: #f8f8ff;
+  --lighter-color: #FFFFFF;
 
 /* 🅰🔠🅱 Fonts 🅰🔠🅱 */
   --font-family: Tahoma, sans-serif;
@@ -16,7 +20,9 @@
 /* _-_-_ Spaces (margin, padding etc...) _-_-_ */
   --space-md: 0.5rem;
   --space-md-half: calc(var(--space-md)/2);
+  --space-md-quarter: calc(var(--space-md)/4);
   --space-md-2x: calc(var(--space-md)*2);
+
 
 /* 📦 ⬅️➡️  Sizes (widths, hights etc...) ⬆️⬇️ 📦 */
   --content-max-width-LG: 1200px;

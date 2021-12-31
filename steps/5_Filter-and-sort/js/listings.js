@@ -18,7 +18,10 @@ function buildListings(tripSet) {
 
 function buildListing(container, listing) {
   const listingElm = document.createElement('article')
+  //
+  //
   listingElm.classList.add("listing")
+  // listingElm.classList.add("listing", "style_"+listing.unitStyleName)
 
   const date = new Date(listing.checkInDate)
   const options = {
