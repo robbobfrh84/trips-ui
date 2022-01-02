@@ -11,7 +11,7 @@
   - [Step 3 🐾: Resize images](https://robbobfrh84.github.io/trips-ui/steps/3_Resize-images/index.html)  
   - [Step 4 🐾: Responsive grid](https://robbobfrh84.github.io/trips-ui/steps/4_Responsive-grid/index.html)  
   - [Step 5 🐾: Filter and sort](https://robbobfrh84.github.io/trips-ui/steps/5_Filter-and-sort/index.html)
-  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
+  - [Step 6 🐾: Style ](https://robbobfrh84.github.io/trips-ui/steps/6_Style/index.html)
   - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
   - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
   - [Final Step: "..."](https://robbobfrh84.github.io/index.html)
@@ -23,14 +23,13 @@
 - ✅ Resize Images
 - ✅ Wireframe responsive grid
 - 🟡 Filter and Sort
+- Ad hoc design implementation
 - Accessibility & Semantic HTML refactor and review
-- Ad hoc design implementation for **Fonts, background, and borders**
-- Ad hoc design implementation for **Layout, transitions, and buttons**
 - Performant refactor and review
 - Final touches & repo documentation review.
 - ⭐️ Bonus enhancements
   - Animated popup for listings...
-  - Mock delay & loader. 
+  - Mock delay & loader.
 
 ----
 # Project Development Notes
@@ -54,6 +53,9 @@ Note: While I was messing around with the scaling endpoint. I did discover that 
 
 ### Responsive grid
 I struggled a bit with this step. Getting the listings into columns wasn't too tricky. However, because the items needed to be sorted by date, reordering the columns with CSS would put them out of order. There may be a way, but I elected to use JS event to re-order the columns on **LG - MD - SM** break points.
+
+### Filter and Sort
+Because of limited unit style filter types(4), I decided to go with a discovery UI. Clicking a filter when all filters are selected result in **only** the unit style selected showing in the listings. However, select another and that unit style is added to the listings, showing two types.  
 
 
 ----
