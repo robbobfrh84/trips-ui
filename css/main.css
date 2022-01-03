@@ -4,4 +4,7 @@ body {
   font-size: 100%;
   font-family: var(--font-family);
   margin: 0;
+  opacity: 0;
+  display: none;
+  transition: opacity 1s;
 }
