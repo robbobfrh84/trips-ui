@@ -15,10 +15,10 @@ window.onload = () => start()
 window.onresize = () => buildListings(CONFIG.data.tripSet)
 
 async function start() {
-  fadeIn() // it's an async, but we're not awaiting to fetch JSON.
+  // fadeIn() // it's an async, but we're not awaiting to fetch JSON.
   CONFIG.data = await fetchJSON(CONFIG.jsonUrl)
   buildNaviation(CONFIG.data.tripSet)
-  buildListings(CONFIG.data.tripSet, true)
+  buildListings(CONFIG.data.tripSet)
 }
 
 async function fetchJSON(url) {

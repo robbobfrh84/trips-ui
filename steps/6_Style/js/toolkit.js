@@ -63,8 +63,9 @@ async function timeout(delay, callback) {
 
 async function crossFadeListing(reverse) {
   if (reverse) CONFIG.data.tripSet.reverse()
-  tripSet_container.style.opacity = 0
-  await timeout(500, ()=>{ buildListings(CONFIG.data.tripSet) })
+  // tripSet_container.style.opacity = 0
+  buildListings(CONFIG.data.tripSet)
+  // await timeout(500, ()=>{ buildListings(CONFIG.data.tripSet) })
   tripSet_container.style.opacity = 1
 }
 

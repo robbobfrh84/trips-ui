@@ -1,0 +1,55 @@
+:root {
+/* 🔴🟢🔵 colors 🔴🟢🔵 */
+  --green-heighlight: #228b22;
+  --blue-heighlight:  #1e90ff;
+  --dark-color: #282829;
+  --darker-color: #172328;
+  --gray-color: #707077;
+  --light-color: #f8f8ff;
+  --lighter-color: #FFFFFF;
+
+  --bg-very-white-blue: #f1f4f8; /* taken from Insspirato.com */
+  /* transparents */
+  --bg-faint-black: rgba(0,0,0,0.1);
+  --bg-less-faint-black: rgba(0,0,0,0.3);
+
+/* 🅰🔠🅱 Fonts 🅰🔠🅱 */
+  --font-family: "GT America", "Helvetica Neue", sans-serif;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1rem;
+  --font-weight-bold: bold;
+
+/* _-_-_ Spaces (margin, padding etc...) _-_-_ */
+  --space-md: 0.5rem;
+  --space-md-half: calc(var(--space-md)/2);
+  --space-md-quarter: calc(var(--space-md)/4);
+  --space-md-2x: calc(var(--space-md)*2);
+
+
+/* 📦 ⬅️➡️  Sizes (widths, hights etc...) ⬆️⬇️ 📦 */
+  --content-max-width-LG: 1200px;
+  --col-width: 400px;
+  /* --img-width: 310px; maybe don't need this */
+  /* --header-height: 2.5rem; */
+  /* --navbar-height-lg-width: 3rem; */
+  /* --navbar-height-md-width: 6rem; */
+
+  --button-1-height: 2rem;
+  --image-height: 200px; /* manually set by column width for best ratio for minimal pinch / pull of pics */
+
+/*       misc...      */
+  --box-shadow-container: 2px 2px 2px rgba(0,0,0,0.2);
+  --box-shadow-card: 1px 1px 1px rgba(0,0,0,0.2);
+  --box-shadow-button: 0px 0px 5px rgba(0,0,0,0.5);
+
+
+/* ----- */
+
+/* 🧪🥽🔬 Testing Zone (wire-framing, experimenting, etc...) 🧪🥽🔬 */
+  /* --bg-faint-white: rgba(255,255,255,0.2);
+
+  --bg-faint-red: rgba(100,0,0,0.25);
+  --bg-faint-green: rgba(0,200,0,0.25);
+  --bg-faint-blue: rgba(0,0,100,0.25); */
+
+}

@@ -21,11 +21,11 @@
 - ✅ Resize Images
 - ✅ Wireframe responsive grid
 - ✅ Filter and Sort
-- 🟡 Ad hoc design implementation
-- Performant refactor and review
-- Accessibility & Semantic HTML refactor and review
-- Final touches & repo documentation review.
-- 🟡 ⭐️ Bonus enhancements
+- ✅ Ad hoc design implementation
+- ✅ Performant refactor and review
+- ✅ Accessibility & Semantic HTML refactor and review
+- ✅ Final touches & repo documentation review.
+- ...🟡 ⭐️ Bonus enhancements
   - Animated popup for listings...
   - Mock delay & loader.
 

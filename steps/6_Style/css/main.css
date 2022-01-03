@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  font-size: 100%;
+  font-family: var(--font-family);
+  margin: 0;
+}
+
+html {
+  background: url("../images/white_grain.png");
+}
+
+body {
+  /* display: none; */
+  background-color: rgba(255,255,255,1);
+  transition: background-color 0.5s;
+}
+
+#appHeader, #appNavigation, #appMain {
+  /* opacity: 0;
+  transition: opacity 2s; */
+}
+
+#appHeader {
+  background-color: var(--bg-very-white-blue);
+  box-shadow: var(--box-shadow-container);
+  width: 100%;
+}
+
+#appNavigation {
+  background-color: var(--bg-faint-black);
+  box-shadow: var(--box-shadow-container);
+}
