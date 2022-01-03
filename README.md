@@ -12,7 +12,7 @@
   - [Step 4 🐾: Responsive grid](https://robbobfrh84.github.io/trips-ui/steps/4_Responsive-grid/index.html)  
   - [Step 5 🐾: Filter and sort](https://robbobfrh84.github.io/trips-ui/steps/5_Filter-and-sort/index.html)
   - [Step 6 🐾: Style](https://robbobfrh84.github.io/trips-ui/steps/6_Style/index.html)
-  - [Final Step: "..."](https://robbobfrh84.github.io/trips-ui/index.html)
+  - [Final Step: "Refactor & Semantic HTML"](https://robbobfrh84.github.io/trips-ui/index.html)
 
 ## Project Development Overview
 - ✅ Review Assignment, plan rough outline of steps-t-completion
