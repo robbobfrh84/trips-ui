@@ -12,8 +12,6 @@
   - [Step 4 🐾: Responsive grid](https://robbobfrh84.github.io/trips-ui/steps/4_Responsive-grid/index.html)  
   - [Step 5 🐾: Filter and sort](https://robbobfrh84.github.io/trips-ui/steps/5_Filter-and-sort/index.html)
   - [Step 6 🐾: Style](https://robbobfrh84.github.io/trips-ui/steps/6_Style/index.html)
-  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
-  - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
   - [Final Step: "..."](https://robbobfrh84.github.io/index.html)
 
 ## Project Development Overview
@@ -24,10 +22,10 @@
 - ✅ Wireframe responsive grid
 - ✅ Filter and Sort
 - 🟡 Ad hoc design implementation
-- Accessibility & Semantic HTML refactor and review
 - Performant refactor and review
+- Accessibility & Semantic HTML refactor and review
 - Final touches & repo documentation review.
-- ⭐️ Bonus enhancements
+- 🟡 ⭐️ Bonus enhancements
   - Animated popup for listings...
   - Mock delay & loader.
 

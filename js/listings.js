@@ -50,9 +50,22 @@ function listingHTML(listing, shortDate) {
         src="https://cms.inspirato.com/${listing.heroImage}${searchQuery}"
       >
     </div>
-    <div class="listing-info-container">
-      <h3 class="app-h3">${listing.unitStyleName}</h3>
-      <h3 class="app-h3 date">${shortDate}</h3>
+    <div>
+      <h3 class="app-h3 lables">
+        <span class="lables-container">
+          <span>UNIT</span>
+          <span>STYLE</span>
+        </span>
+        ${listing.unitStyleName}
+      </h3>
+      <div class="lables-divider"></div>
+      <h3 class="app-h3 lables date">
+        <span class="lables-container">
+          <span>CHECK</span>
+          <span>IN</span>
+        </span>
+        ${shortDate}
+      </h3>
     </div>
   `
 }

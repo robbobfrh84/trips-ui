@@ -25,3 +25,8 @@ async function fetchJSON(url) {
   const json = await response.json()
   return json
 }
+
+function toggleNavigation() {
+  const currentState = navigation.style.display
+  navigation.style.display = currentState === "none" ? "block" : "none"
+}

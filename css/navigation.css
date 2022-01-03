@@ -1,12 +1,11 @@
 .app-navigation {
   background-color: var(--bg-faint-black);
-  /* height: var(--navbar-height-lg-width); */
   box-shadow: var(--box-shadow-container);
 }
 
 .app-navigation-container {
   /* height: var(--navbar-height-lg-width); */
-  max-width: var(--content-max-width-lg);
+  max-width: var(--content-max-width-LG);
   padding-top: var(--space-md);
   padding-bottom: var(--space-md-half);
   margin: auto;

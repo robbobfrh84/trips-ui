@@ -1,0 +1,109 @@
+#tripSet_container {
+  max-width: var(--content-max-width-LG);
+  margin: auto;
+  display: flex;
+}
+
+.row {
+  padding: var(--space-md)
+}
+
+.col {
+  padding: 0; /* 🚨 This needs to stay at or under the MAX WIDTH for JS MATHs! */
+  margin: 0; /* 🚨 This needs to stay at or under the MAX WIDTH for JS MATHs! */
+  flex: 1;
+}
+
+.listing {
+  background-color: var(--bg-very-white-blue);
+  box-shadow: var(--box-shadow-card);
+  margin: var(--space-md);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md-2x);
+  transition: box-shadow .3s, margin .3s;
+}
+
+.listing:hover {
+  background-color: var(--bg-very-white-blue);
+  box-shadow: var(--box-shadow-card);
+  margin: var(--space-md);
+  padding: var(--space-md);
+  box-shadow: var(--box-shadow-button);
+  margin: var(--space-md-half);
+  transition: box-shadow .3s, margin .3s;
+}
+
+.app-h2 {
+  padding-top: var(--space-md-2x);
+  font-size: var(--font-size-md);
+  font-weight: 150;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.app-h3 {
+  background-color: var(--bg-faint-black);
+  padding: var(--space-md);
+  margin: 0;
+  margin-bottom: var(--space-md-half);
+}
+
+.app-h3.name {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.app-h3.lables {
+  padding: var(--space-md-half);
+  display: flex;
+  align-items: center;
+  background-color: inherit;
+}
+
+.lables-divider {
+  background-color: var(--gray-color);
+  margin-bottom: var(--space-md-half);
+  opacity: 0.4;
+  width: 100%;
+  height: 2px;
+}
+
+.lables-container {
+  border-right: 2px solid var(--dark-color);
+  padding-right: var(--space-md);
+  margin-right: var(--space-md);
+  padding-left: 0px;
+  width: 50px;
+  text-align: right;
+  display: inline-block;
+}
+
+.lables-container > span {
+  color: var(--gray-color);
+  font-size: 12px;
+  display: block;
+  letter-spacing: 2px;
+}
+
+.app-h3.name.sm {
+  font-size: var(--font-size-sm);
+  line-height: var(--font-size-md);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.app-h3.lables.date {
+  margin-bottom: 0;
+}
+
+.listing-img-container {
+  background-color: var(--bg-faint-green);
+  margin-bottom: var(--space-md-half);
+  display: flex;
+  justify-content: center;
+}
+
+.listing-img {
+  width: 100%;
+}

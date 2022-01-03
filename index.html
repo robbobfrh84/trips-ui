@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en">
 <!-- <link rel="icon" href="link/or/path">  -->
-<title> Step 6 🐾: Style </title>
+<title> Inspirato UI Engineering Code Challenge </title>
 <head>
   <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +18,19 @@
   <header class="app-header">
     <div class="app-header-container">
       <span class="app-title">
-        Step 6 🐾: Style
+        Inspirato UI Engineering Code Challenge
       </span>
       <nav class="nav-top-right">
-        <button aria-label="menu" class="button-1 nav-top-right_button">
-          &bull; &bull; &bull;
-        </button>
+        <button
+          aria-label="menu"
+          class="button-1 nav-top-right_button"
+          onclick="toggleNavigation()"
+        > &bull; &bull; &bull; </button>
       </nav>
     </div>
   </header>
 
-  <nav class="app-navigation">
+  <nav id="navigation" class="app-navigation">
     <div class="app-navigation-container">
       <section aria-label="sort listings" class="app-navigation-section sort">
         <span class="nav-lable"> &bull; Sort check in date </span>
@@ -51,6 +53,7 @@
 
   <main>
     <section class="flex-grid">
+      <h2 class="app-h2"> - Location Listings - </h2>
       <div id="tripSet_container" class="row"></div>
     </section>
   </main>
