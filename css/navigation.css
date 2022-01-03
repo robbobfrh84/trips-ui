@@ -1,8 +1,3 @@
-.app-navigation {
-  background-color: var(--bg-faint-black);
-  box-shadow: var(--box-shadow-container);
-}
-
 .app-navigation-container {
   /* height: var(--navbar-height-lg-width); */
   max-width: var(--content-max-width-LG);

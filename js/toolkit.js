@@ -43,12 +43,28 @@ function filterTripSet(tripSet) {
   return filteredTripSet
 }
 
-// function getVarCSS(name, rawUnit) { // 🚨 NOT USED? REMOVE?
-//   const css = getComputedStyle(document.documentElement)
-//   const varCSS = css.getPropertyValue(name) // .split(rawUnit)[0])
-//   const value = !rawUnit ? varCSS : parseInt(varCSS.split(rawUnit)[0])
-//   return value
-// }
+async function fadeIn() {
+  document.body.style.display = "block"
+  await timeout(300, ()=>{
+    document.body.style.backgroundColor = "rgba(255,255,255,0)"
+  })
+  await timeout(300, ()=>{
+    appHeader.style.opacity = 1
+  })
+  await timeout(300, ()=>{
+    appNavigation.style.opacity = 1
+  })
+  await timeout(300, ()=>{
+    appMain.style.opacity = 1
+  })
+}
+
+async function timeout(delay, callback) {
+  return new Promise(resolve => setTimeout(()=>{
+    callback()
+    resolve()
+  },delay))
+}
 
 /*
   👀 Note: Will log widths of all images:

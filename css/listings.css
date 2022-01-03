@@ -17,20 +17,23 @@
 .listing {
   background-color: var(--bg-very-white-blue);
   box-shadow: var(--box-shadow-card);
-  margin: var(--space-md);
   padding: var(--space-md);
+  margin: var(--space-md);
   margin-bottom: var(--space-md-2x);
-  transition: box-shadow .3s, margin .3s;
+  transition: box-shadow .3s, margin-top 1s;
+}
+
+.listing.pop {
+  margin-top: 100px;
+  transition: margin-top 1s;
 }
 
 .listing:hover {
   background-color: var(--bg-very-white-blue);
   box-shadow: var(--box-shadow-card);
-  margin: var(--space-md);
   padding: var(--space-md);
   box-shadow: var(--box-shadow-button);
-  margin: var(--space-md-half);
-  transition: box-shadow .3s, margin .3s;
+  transition: box-shadow .3s;
 }
 
 .app-h2 {

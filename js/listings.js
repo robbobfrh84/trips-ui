@@ -34,6 +34,7 @@ function buildListing(container, listing) {
   const shortDate = date.toLocaleDateString('us-EN', options)
   listingElm.innerHTML = listingHTML(listing, shortDate)
   container.appendChild(listingElm)
+  document.querySelectorAll(".listing.pop")
 }
 
 function listingHTML(listing, shortDate) {

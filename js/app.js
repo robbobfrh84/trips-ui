@@ -15,6 +15,7 @@ window.onload = () => start()
 window.onresize = () => buildListings(CONFIG.data.tripSet)
 
 async function start() {
+  fadeIn() // it's an async, but we're not awaiting to fetch JSON.
   CONFIG.data = await fetchJSON(CONFIG.jsonUrl)
   buildNaviation(CONFIG.data.tripSet)
   buildListings(CONFIG.data.tripSet)
@@ -27,6 +28,6 @@ async function fetchJSON(url) {
 }
 
 function toggleNavigation() {
-  const currentState = navigation.style.display
-  navigation.style.display = currentState === "none" ? "block" : "none"
+  const currentState = appNavigation.style.display
+  appNavigation.style.display = currentState === "none" ? "block" : "none"
 }
