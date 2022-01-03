@@ -17,6 +17,7 @@
 
 .listing {
   background-color: var(--bg-very-white-blue);
+  background-color: red;
   box-shadow: var(--box-shadow-card);
   margin: var(--space-md);
   padding: var(--space-md);
