@@ -3,7 +3,7 @@
 
 ## Project's live links 🔥
 
-✨ [Completed application link](https://robbobfrh84.github.io/index.html) ✨
+✨ [Completed application link](https://robbobfrh84.github.io/trips-ui/index.html) ✨
 
 #### Workflow steps status links...🐾🐾🐾
   - [Step 1 🐾: Serve and fetch JSON](https://robbobfrh84.github.io/trips-ui/steps/1_Serve-and-fetch-JSON/index.html)  
@@ -12,7 +12,7 @@
   - [Step 4 🐾: Responsive grid](https://robbobfrh84.github.io/trips-ui/steps/4_Responsive-grid/index.html)  
   - [Step 5 🐾: Filter and sort](https://robbobfrh84.github.io/trips-ui/steps/5_Filter-and-sort/index.html)
   - [Step 6 🐾: Style](https://robbobfrh84.github.io/trips-ui/steps/6_Style/index.html)
-  - [Final Step: "..."](https://robbobfrh84.github.io/index.html)
+  - [Final Step: "..."](https://robbobfrh84.github.io/trips-ui/index.html)
 
 ## Project Development Overview
 - ✅ Review Assignment, plan rough outline of steps-t-completion
