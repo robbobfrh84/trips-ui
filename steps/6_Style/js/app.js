@@ -1,7 +1,7 @@
 const CONFIG = {
   jsonUrl: "https://storage.googleapis.com/storage/v1/b/bobs_lab_bucket/o/json_host%2Ftrips.json?alt=media",
-  maxColumns: 4,
-  maxColumnWidth: 350, //550
+  maxColumns: 3,
+  maxColumnWidth: 550, //550
   tripSet: [], // Created in "start" function
   styles: [],
   state: {

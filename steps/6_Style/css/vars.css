@@ -1,7 +1,5 @@
 :root {
 /* 🔴🟢🔵 colors 🔴🟢🔵 */
-  /* --main-color: #06c; */
-  /* --accent-color: #006; */
   --green-heighlight: #228b22;
   --blue-heighlight:  #1e90ff;
   --bg-very-white-blue: #f1f4f8; /* taken  from Insspirato.com */
@@ -34,12 +32,17 @@
   --content-max-width-SM: 400px;
   --col-width: 400px;
   /* --img-width: 310px; maybe don't need this */
-  --image-height: 200px; /* manually set by column width for best ratio for minimal pinch / pull of pics */
-  --navbar-top-height: 2.5rem;
+  --header-height: 2.5rem;
+  --navbar-height-lg-width: 3rem;
+  --navbar-height-md-width: 6rem;
+
   --button-1-height: 2rem;
+  --image-height: 200px; /* manually set by column width for best ratio for minimal pinch / pull of pics */
+
 
 /*       misc...      */
   --box-shadow-container: 2px 2px 2px rgba(0,0,0,0.2);
+  --box-shadow-card: 1px 1px 1px rgba(0,0,0,0.2);
   --box-shadow-button: 0px 0px 5px rgba(0,0,0,0.5);
 
 

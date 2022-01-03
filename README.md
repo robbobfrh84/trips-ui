@@ -11,7 +11,7 @@
   - [Step 3 🐾: Resize images](https://robbobfrh84.github.io/trips-ui/steps/3_Resize-images/index.html)  
   - [Step 4 🐾: Responsive grid](https://robbobfrh84.github.io/trips-ui/steps/4_Responsive-grid/index.html)  
   - [Step 5 🐾: Filter and sort](https://robbobfrh84.github.io/trips-ui/steps/5_Filter-and-sort/index.html)
-  - [Step 6 🐾: Style ](https://robbobfrh84.github.io/trips-ui/steps/6_Style/index.html)
+  - [Step 6 🐾: Style](https://robbobfrh84.github.io/trips-ui/steps/6_Style/index.html)
   - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
   - [...](https://robbobfrh84.github.io/trips-ui/steps//index.html)
   - [Final Step: "..."](https://robbobfrh84.github.io/index.html)
@@ -22,8 +22,8 @@
 - ✅ Display the data, extend directory and set JS & CSS base variables
 - ✅ Resize Images
 - ✅ Wireframe responsive grid
-- 🟡 Filter and Sort
-- Ad hoc design implementation
+- ✅ Filter and Sort
+- 🟡 Ad hoc design implementation
 - Accessibility & Semantic HTML refactor and review
 - Performant refactor and review
 - Final touches & repo documentation review.

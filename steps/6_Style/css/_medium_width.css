@@ -1,0 +1,8 @@
+@media (max-width: 960px) {
+  .app-navigation-container {
+    display: block;
+  }
+  .app-navigation-section.sort {
+    padding-bottom: var(--space-md);
+  }
+}

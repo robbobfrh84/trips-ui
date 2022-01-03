@@ -1,12 +1,14 @@
 .app-navigation {
   background-color: var(--bg-faint-black);
-  height: var(--navbar-top-height);
+  /* height: var(--navbar-height-lg-width); */
   box-shadow: var(--box-shadow-container);
 }
 
 .app-navigation-container {
-  height: var(--navbar-top-height);
-  max-width: var(--content-max-width-LG);
+  /* height: var(--navbar-height-lg-width); */
+  max-width: var(--content-max-width-lg);
+  padding-top: var(--space-md);
+  padding-bottom: var(--space-md-half);
   margin: auto;
   display: flex;
   align-items: center;
@@ -37,8 +39,8 @@
   margin: var(--space-md-quarter);
   font-weight: var(--font-weight-bold);
   border: 2px solid var(--bg-less-faint-black);
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
   height: 30px;
   border-radius: 15px;
   cursor: pointer;

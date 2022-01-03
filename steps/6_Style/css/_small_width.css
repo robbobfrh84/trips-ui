@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  .app-navigation-section {
+    display: block;
+  }
+  .buttons-container.filter {
+    display: block;
+  }
+}

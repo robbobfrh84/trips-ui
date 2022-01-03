@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/listings.css">
+  <link rel="stylesheet" href="css/_medium_width.css">
+  <link rel="stylesheet" href="css/_small_width.css">
+
 </head>
 <body>
 
@@ -27,7 +30,7 @@
 
   <nav class="app-navigation">
     <div class="app-navigation-container">
-      <section aria-label="sort listings" class="app-navigation-section">
+      <section aria-label="sort listings" class="app-navigation-section sort">
         <span class="nav-lable"> &bull; Sort check in date </span>
         <div class="buttons-container">
           <button onClick="reverseCheckInOrder('closest')" class="sort-btn closest active">
@@ -41,7 +44,7 @@
       </section>
       <section aria-label="filter listings" class="app-navigation-section">
         <span class="nav-lable"> &bull; Filter style </span>
-        <div id="filter_container" class="buttons-container"></div>
+        <div id="filter_container" class="buttons-container filter"></div>
       </section>
     </div>
   </nav>

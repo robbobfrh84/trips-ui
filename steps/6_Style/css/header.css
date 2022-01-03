@@ -1,12 +1,12 @@
 .app-header {
   background-color: var(--bg-very-white-blue);
-  height: var(--navbar-top-height);
+  height: var(--header-height);
   box-shadow: var(--box-shadow-container);
   width: 100%;
 }
 
 .app-header-container {
-  height: var(--navbar-top-height);
+  height: var(--header-height);
   max-width: var(--content-max-width-LG);
   margin: auto;
   display: flex;

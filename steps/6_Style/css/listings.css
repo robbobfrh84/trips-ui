@@ -1,17 +1,14 @@
 #tripSet_container {
-  background-color: var(--bg-faint-green);
   max-width: var(--content-max-width-LG);
   margin: auto;
   display: flex;
 }
 
 .row {
-  background-color: var(--bg-faint-green);
   padding: var(--space-md)
 }
 
 .col {
-  background-color: var(--bg-faint-green);
   padding: 0; /* 🚨 This needs to stay at or under the MAX WIDTH for JS MATHs! */
   margin: 0;  /* 🚨 This needs to stay at or under the MAX WIDTH for JS MATHs! */
   width: var(--col-width);
@@ -19,7 +16,8 @@
 }
 
 .listing {
-  background-color: var(--bg-faint-green);
+  background-color: var(--bg-very-white-blue);
+  box-shadow: var(--box-shadow-card);
   margin: var(--space-md);
   padding: var(--space-md);
 }
