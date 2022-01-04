@@ -1,7 +1,6 @@
 # UI Engineering Code Challenge
-... [Project intro writeup here] WIP...
 
-## Project's live links 🔥
+### Project's live links 🔥
 
 ✨ [Completed application link](https://robbobfrh84.github.io/trips-ui/index.html) ✨
 
@@ -15,17 +14,18 @@
   - [Final Step: "Refactor & Semantic HTML"](https://robbobfrh84.github.io/trips-ui/index.html)
 
 ## Project Development Overview
-- ✅ Review Assignment, plan rough outline of steps-t-completion
-- ✅ Setup directory, Github repo, and hosting `trips.json` for mock API request
+- ✅ Review assignment, plan rough outline of steps-to-completion
+- ✅ Setup directory, Github repo, and hosting `trips.json` for mock API requests
 - ✅ Display the data, extend directory and set JS & CSS base variables
-- ✅ Resize Images
+- ✅ Resize images
 - ✅ Wireframe responsive grid
-- ✅ Filter and Sort
+- ✅ Filter and sort
 - ✅ Ad hoc design implementation
 - ✅ Performant refactor and review
-- ✅ Accessibility & Semantic HTML refactor and review
+- ✅ Accessibility & semantic HTML refactor and review
 - ✅ Final touches & repo documentation review.
 - ...🟡 ⭐️ Bonus enhancements
+  - Performant enhancements
   - Animated popup for listings...
   - Mock delay & loader.
 
@@ -38,15 +38,15 @@ The data this application is build around, uses a provided [trips.json](https://
 I used a Google Cloud Storage Bucket to host and serve the file, and on the client-side, I used used the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to retrieve the data and convert it into a usable javaScript object.
 
 ### Display the data, extend directory and set JS & CSS base variables
-When setting up the foundation for this app. I wanted to make sure I had a reference to quickly change any base variables that may need to be changed at a later point. For CSS I created `css/vars.css` to be the "source of truth" for site-wide colors, spaces, sizes, fonts and other vars to maintain.
+When setting up the foundation for this app. I wanted to make sure I had a reference to quickly change any base variables that may need to be changed at a later point. For CSS, I created `css/vars.css` to be the "source of truth" for site-wide colors, spaces, sizes, fonts and other vars to maintain.
 
-For javascript I created the file `js/app.js` to be the root trigger for any client-side events, handling initial **onload** events in addition to other ui events and routing if necessary.  
+For javascript, I created the file `js/app.js` to be the root trigger for any client-side events, handling initial **onload** events in addition to other ui events and routing if necessary.  
 
 ### Resize Images
 With a helpful hint from the Code Challenge directions, I was able to tinker with the image url and discover that adding `width`, `height` and specifying my desired size of image, allowed me to scale my images smaller for the frontend to load quickly!
 - Here is the completed query parameter that was appended: `?height=200&width=356`.
 
-Note: While I was messing around with the scaling endpoint. I did discover that a few mages didn't fit the 200/356 ratio. However they were only off by a few pixels, so I excepting "pinching" and "pulling" for this use-case.
+Note: While I was messing around with the scaling endpoint. I did discover that a few images didn't fit the 200/356 ratio. However they were only off by a few pixels, so I excepting "pinching" and "pulling" for this use-case.
 - But, something to consider down the road.
 
 ### Responsive grid
